@@ -1,4 +1,5 @@
 ^data-raw$
 ^validation$
 ^VALIDATION\.md$
+^cran-comments\.md$
 ^.*\.zip$

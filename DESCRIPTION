@@ -2,7 +2,7 @@ Package: grayleafspotdata
 Type: Package
 Title: File Manifest for the S-BSST3199 Magnaporthe Colony Image Dataset
 Version: 0.1.0
-Date: 2026-08-18
+Date: 2026-08-19
 Description: Provides a machine-readable file and image manifest for the
     research data deposited in EMBL-EBI BioStudies under accession
     S-BSST3199 (a time-series petri-dish image dataset of Magnaporthe
@@ -11,7 +11,7 @@ Description: Provides a machine-readable file and image manifest for the
     files are not bundled in this R package; they remain hosted by
     BioStudies. The manifest can be used in image-analysis and
     plant-pathology workflows, including workflows based on the
-    grayleafspotr software. Related research outputs are documented
+    'grayleafspotr' software. Related research outputs are documented
     using their persistent identifiers.
 License: MIT + file LICENSE
 Encoding: UTF-8
