@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "retrieved_at": "2026-08-18",
+  "retrieved_by": "data-raw/fetch_related_metadata.R (manual initial seed)",
+  "records": [
+    {
+      "identifier": "S-BSST3199",
+      "identifier_type": "BioStudies accession",
+      "repository": "EMBL-EBI BioStudies",
+      "doi": "10.6019/S-BSST3199",
+      "title": "Time-series Magnaporthe colony images from twelve petri dishes and morphometric analysis results generated using metrics-petri 3.0.0",
+      "description": "This study contains 49 original time-series petri-dish images of Magnaporthe colonies from 12 plates, associated image-level metadata, and extracted morphometric analysis outputs generated using metrics-petri version 3.0.0. The data comprise two acquisition groups. The 30 January group contains five images of plate P001. The 6 February group contains 44 images from plates P002 through P012, with four images per plate. Each plate directory contains its corresponding image_metadata.csv file and an extracted analysis directory. The analysis outputs include quantitative CSV and JSON results, provenance records, segmentation overlays, and growth charts. Image metadata were generated using the metrics-petri-metadata entry point. Analysis was performed using the installed metrics-petri 3.0.0 package in a separate Python 3.12 virtual environment. The exact software environment and analysis procedure are documented in the deposited documentation directory. The metrics-petri software has a separate archival record in Harvard Dataverse under DOI 10.7910/DVN/SR2HBR. That Dataverse record identifies the software archive. This BioStudies record identifies the biological images, associated metadata, and derived analysis outputs.",
+      "release_date": "2026-07-09",
+      "publication_date": "2026-07-09",
+      "version": null,
+      "resource_type": "biological image dataset with derived analysis outputs",
+      "authors": "Rohan R (Norwich Biosciences Institutes, ORCID 0009-0005-9225-1775)",
+      "canonical_url": "https://www.ebi.ac.uk/biostudies/studies/S-BSST3199",
+      "api_url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-BSST3199",
+      "relationship": "canonical source dataset",
+      "notes": "Top-level deposited files: SHA256SUMS.txt, README.txt, metrics-petri-3.0.0.zip, LICENSE-MIT.txt, dataset_manifest.csv, raw_images.zip, documentation.zip.",
+      "retrieved_at": "2026-08-18"
+    },
+    {
+      "identifier": "10.7910/DVN/SR2HBR",
+      "identifier_type": "DOI",
+      "repository": "Harvard Dataverse",
+      "doi": "10.7910/DVN/SR2HBR",
+      "title": "metrics-petri: software for magnaporthe colony segmentation and morphometric analysis of petri-dish images",
+      "subtitle": "A reproducible Python workflow for time-series measurement of colony growth, morphology, texture, and cracking",
+      "description": "metrics-petri is a Python software package for segmentation and morphometric analysis of Magnaporthe colonies in petri-dish images. It processes time-series images and generates quantitative measurements of colony area, equivalent diameter, perimeter, circularity, eccentricity, edge roughness, texture entropy, crack area, crack coverage, crack count, relative growth rate, and area growth rate. It also produces CSV and JSON outputs, provenance records, segmentation overlays, and growth charts. This Dataverse record archives version 3.0.0 of the software for reproducibility and citation. The active source repository is available at https://github.com/rotsl/metrics-petri, and the tagged release is available at https://github.com/rotsl/metrics-petri/releases/tag/3.0.0. The software is distributed under the MIT licence.",
+      "authors": "R, Rohan",
+      "publication_date": "2026-07-10",
+      "version": "v1.0",
+      "license": "MIT",
+      "license_uri": "https://spdx.org/licenses/MIT.html",
+      "resource_type": "software archive (metrics-petri 3.0.0)",
+      "canonical_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SR2HBR",
+      "api_url": "https://dataverse.harvard.edu/api/datasets/:persistentId?persistentId=doi:10.7910/DVN/SR2HBR",
+      "relationship": "archives the metrics-petri 3.0.0 software used to generate the S-BSST3199 analysis outputs",
+      "related_works": [
+        {
+          "identifier": "10.7910/DVN/7BJLIQ",
+          "identifier_type": "DOI",
+          "relation_type": "IsSupplementedBy"
+        }
+      ],
+      "files": [
+        {
+          "filename": "metrics-petri-3.0.0.zip",
+          "size_bytes": 24007506,
+          "checksum_type": "MD5",
+          "checksum_value": "aeb8bb5314d35b29c3192bdb80310298",
+          "content_type": "application/zip",
+          "description": "Source code and related files for the metrics-petri project"
+        }
+      ],
+      "retrieved_at": "2026-08-18"
+    },
+    {
+      "identifier": "10.7910/DVN/7BJLIQ",
+      "identifier_type": "DOI",
+      "repository": "Harvard Dataverse",
+      "doi": "10.7910/DVN/7BJLIQ",
+      "title": "Validation Dataset for Automated Fungal Colony Segmentation and Equivalent-Diameter Measurement in Petri-Dish Images Using a U-Net Model Trained on 605 Images",
+      "description": "Petri Image Segmentation and Diameter Validation Dataset. This dataset provides the annotations, trained models, measurements, and validation outputs used to evaluate an automated Petri-dish image analysis workflow. It serves as a validation dataset for the metrics-petri software (DOI 10.7910/DVN/SR2HBR). The dataset contains a U-Net model trained on 605 Petri-dish images.",
+      "authors": "R, Rohan",
+      "publication_date": "2026-07-13",
+      "version": "v2.0",
+      "license": "MIT",
+      "license_uri": "https://spdx.org/licenses/MIT.html",
+      "resource_type": "validation dataset for U-Net segmentation (605 training images)",
+      "canonical_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7BJLIQ",
+      "api_url": "https://dataverse.harvard.edu/api/datasets/:persistentId?persistentId=doi:10.7910/DVN/7BJLIQ",
+      "relationship": "validation dataset for the metrics-petri U-Net segmentation model",
+      "files": [
+        {
+          "filename": "petrimodel-afa91f96dae2f7e2076207460f91008f3fa57fea-1.tar.gz",
+          "size_bytes": 1484942312,
+          "checksum_type": "MD5",
+          "checksum_value": "5d0d9fb7bba70a7968658c3014cc2021",
+          "content_type": "application/gzip",
+          "description": "Validation dataset tarball"
+        }
+      ],
+      "retrieved_at": "2026-08-18"
+    }
+  ]
+}

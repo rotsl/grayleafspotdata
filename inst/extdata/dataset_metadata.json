@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "retrieved_at": "2026-08-18",
+  "primary_dataset": {
+    "repository": "EMBL-EBI BioStudies",
+    "accession": "S-BSST3199",
+    "doi": "10.6019/S-BSST3199",
+    "url": "https://www.ebi.ac.uk/biostudies/studies/S-BSST3199",
+    "title": "Time-series Magnaporthe colony images from twelve petri dishes and morphometric analysis results generated using metrics-petri 3.0.0",
+    "release_date": "2026-07-09",
+    "organism": "Magnaporthe",
+    "n_source_images": 49,
+    "n_plates": 12,
+    "n_acquisition_groups": 2
+  },
+  "compatible_software": [
+    {
+      "name": "grayleafspotr",
+      "relationship": "compatible analysis software (no R-level dependency)",
+      "url": "https://rotsl.r-universe.dev/builds"
+    }
+  ],
+  "related_works": [
+    {
+      "identifier": "S-BSST3199",
+      "identifier_type": "BioStudies accession",
+      "repository": "EMBL-EBI BioStudies",
+      "doi": "10.6019/S-BSST3199",
+      "title": "Time-series Magnaporthe colony images from twelve petri dishes and morphometric analysis results generated using metrics-petri 3.0.0",
+      "canonical_url": "https://www.ebi.ac.uk/biostudies/studies/S-BSST3199",
+      "relationship": "canonical source dataset"
+    },
+    {
+      "identifier": "10.7910/DVN/SR2HBR",
+      "identifier_type": "DOI",
+      "repository": "Harvard Dataverse",
+      "doi": "10.7910/DVN/SR2HBR",
+      "title": "metrics-petri: software for magnaporthe colony segmentation and morphometric analysis of petri-dish images",
+      "canonical_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SR2HBR",
+      "relationship": "archives the metrics-petri 3.0.0 software used to generate the S-BSST3199 analysis outputs"
+    },
+    {
+      "identifier": "10.7910/DVN/7BJLIQ",
+      "identifier_type": "DOI",
+      "repository": "Harvard Dataverse",
+      "doi": "10.7910/DVN/7BJLIQ",
+      "title": "Validation Dataset for Automated Fungal Colony Segmentation and Equivalent-Diameter Measurement in Petri-Dish Images Using a U-Net Model Trained on 605 Images",
+      "canonical_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7BJLIQ",
+      "relationship": "validation dataset for the metrics-petri U-Net segmentation model"
+    }
+  ]
+}

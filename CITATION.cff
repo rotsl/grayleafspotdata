@@ -1,0 +1,92 @@
+cff-version: 1.2.0
+message: "If you use this R manifest package, cite the package itself. If you use the underlying biological images or analysis outputs, cite BioStudies accession S-BSST3199 according to the BioStudies record. If your analysis relies on the archived metrics-petri software or the U-Net validation dataset, cite the corresponding Harvard Dataverse DOI as well."
+title: "grayleafspotdata: File manifest for the S-BSST3199 Magnaporthe colony image dataset"
+abstract: "An R data package providing a machine-readable manifest for the research data deposited in EMBL-EBI BioStudies under accession S-BSST3199. The manifest points at the canonical deposited files; the 49 source images are not bundled with the R package."
+authors:
+  - family-names: R
+    given-names: Rohan
+    email: phonics-tiffs1i@icloud.com
+    orcid: "https://orcid.org/0009-0005-9225-1775"
+    affiliation: "Norwich Biosciences Institutes"
+repository-code: "https://github.com/rotsl/grayleafspotdata"
+license: MIT
+license-url: "https://spdx.org/licenses/MIT.html"
+type: software
+version: "0.1.0"
+date-released: "2026-08-18"
+keywords:
+  - R
+  - data-package
+  - FAIR
+  - BioStudies
+  - Magnaporthe
+  - plant-pathology
+  - image-analysis
+preferred-citation:
+  type: software
+  title: "grayleafspotdata: File manifest for the S-BSST3199 Magnaporthe colony image dataset"
+  authors:
+    - family-names: R
+      given-names: Rohan
+      email: phonics-tiffs1i@icloud.com
+      orcid: "https://orcid.org/0009-0005-9225-1775"
+      affiliation: "Norwich Biosciences Institutes"
+  repository-code: "https://github.com/rotsl/grayleafspotdata"
+  license: MIT
+  version: "0.1.0"
+  date-released: "2026-08-18"
+references:
+  - type: dataset
+    title: "Time-series Magnaporthe colony images from twelve petri dishes and morphometric analysis results generated using metrics-petri 3.0.0"
+    authors:
+      - family-names: R
+        given-names: Rohan
+        orcid: "https://orcid.org/0009-0005-9225-1775"
+        affiliation: "Norwich Biosciences Institutes"
+    repository-name: "EMBL-EBI BioStudies"
+    identifier:
+      type: other
+      value: "S-BSST3199"
+    url: "https://www.ebi.ac.uk/biostudies/studies/S-BSST3199"
+    date-released: "2026-07-09"
+    license: "BioStudies deposit terms"
+    description: "Canonical source dataset. 49 source images, 12 plate-level metadata files, 12 analysis output directories."
+  - type: software
+    title: "metrics-petri: software for magnaporthe colony segmentation and morphometric analysis of petri-dish images"
+    subtitle: "A reproducible Python workflow for time-series measurement of colony growth, morphology, texture, and cracking"
+    authors:
+      - family-names: R
+        given-names: Rohan
+        orcid: "https://orcid.org/0009-0005-9225-1775"
+        affiliation: "Norwich Biosciences Institutes"
+    repository-name: "Harvard Dataverse"
+    identifier:
+      type: doi
+      value: "10.7910/DVN/SR2HBR"
+    url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SR2HBR"
+    date-released: "2026-07-10"
+    license: MIT
+    license-url: "https://spdx.org/licenses/MIT.html"
+    version: "v1.0"
+    description: "Archives version 3.0.0 of the metrics-petri software used to produce the S-BSST3199 analysis outputs."
+  - type: dataset
+    title: "Validation Dataset for Automated Fungal Colony Segmentation and Equivalent-Diameter Measurement in Petri-Dish Images Using a U-Net Model Trained on 605 Images"
+    authors:
+      - family-names: R
+        given-names: Rohan
+        orcid: "https://orcid.org/0009-0005-9225-1775"
+        affiliation: "Norwich Biosciences Institutes"
+    repository-name: "Harvard Dataverse"
+    identifier:
+      type: doi
+      value: "10.7910/DVN/7BJLIQ"
+    url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7BJLIQ"
+    date-released: "2026-07-13"
+    license: MIT
+    license-url: "https://spdx.org/licenses/MIT.html"
+    version: "v2.0"
+    description: "Validation dataset for the metrics-petri U-Net segmentation model, trained on 605 petri-dish images."
+  - type: software
+    title: "grayleafspotr"
+    notes: "Compatible analysis software. No R-level dependency is established between grayleafspotr and grayleafspotdata."
+    url: "https://rotsl.r-universe.dev/builds"

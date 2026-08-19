@@ -1,0 +1,58 @@
+bibentry(
+  bibtype = "Manual",
+  title    = paste0(
+    "{grayleafspotdata}: File manifest for the S-BSST3199 ",
+    "Magnaporthe colony image dataset"
+  ),
+  author   = person("Rohan", "R", email = "phonics-tiffs1i@icloud.com",
+                    comment = c(ORCID = "0009-0005-9225-1775")),
+  year     = "2026",
+  note      = "R package version 0.1.0",
+  url       = "https://github.com/rotsl/grayleafspotdata"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title    = paste0(
+    "Time-series Magnaporthe colony images from twelve petri dishes ",
+    "and morphometric analysis results generated using metrics-petri 3.0.0"
+  ),
+  author   = person("Rohan", "R", email = "phonics-tiffs1i@icloud.com",
+                    comment = c(ORCID = "0009-0005-9225-1775")),
+  year      = "2026",
+  note      = "EMBL-EBI BioStudies accession S-BSST3199",
+  url       = "https://www.ebi.ac.uk/biostudies/studies/S-BSST3199",
+  doi       = "10.6019/S-BSST3199",
+  publisher = "EMBL-EBI BioStudies"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title    = paste0(
+    "{metrics-petri}: software for Magnaporthe colony segmentation ",
+    "and morphometric analysis of petri-dish images"
+  ),
+  author   = person("Rohan", "R", email = "phonics-tiffs1i@icloud.com",
+                    comment = c(ORCID = "0009-0005-9225-1775")),
+  year      = "2026",
+  note      = "Harvard Dataverse. Software archive, version 3.0.0.",
+  url       = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SR2HBR",
+  doi       = "10.7910/DVN/SR2HBR",
+  publisher = "Harvard Dataverse"
+)
+
+bibentry(
+  bibtype = "Misc",
+  title    = paste0(
+    "Validation Dataset for Automated Fungal Colony Segmentation and ",
+    "Equivalent-Diameter Measurement in Petri-Dish Images Using a U-Net ",
+    "Model Trained on 605 Images"
+  ),
+  author   = person("Rohan", "R", email = "phonics-tiffs1i@icloud.com",
+                    comment = c(ORCID = "0009-0005-9225-1775")),
+  year      = "2026",
+  note      = "Harvard Dataverse. U-Net validation dataset for metrics-petri.",
+  url       = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7BJLIQ",
+  doi       = "10.7910/DVN/7BJLIQ",
+  publisher = "Harvard Dataverse"
+)

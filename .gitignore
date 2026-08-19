@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# Editor / OS detritus
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+Thumbs.db
+
+# R history / sessions
+.Rhistory
+.Rapp.history
+.RData
+.Rtmp/
+
+# Build artefacts
+*.tar.gz
+*.zip
+/src/
+*/src/
+build/
+dist/
+*.Rcheck/
+check_run*.log
+
+# Local-only validation report (not published to the repo)
+VALIDATION.md
+
+# Local environment files
+.env
+.env.local
+secrets.*
+*_secrets.*
+
+# Local BioStudies cache used during manifest generation
+bs_cache/
+*_bs_cache/
+
+# R-universe registry checkout (kept outside this repo normally)
+rotsl.r-universe.dev/
+
+# Local data folder pointer (the S-BSST3199 dataset directory itself
+# is never committed to this repository).
+S-BSST3199/

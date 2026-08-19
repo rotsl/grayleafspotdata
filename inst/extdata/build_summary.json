@@ -1,0 +1,15 @@
+{
+  "study_accession": "S-BSST3199",
+  "study_url": "https://www.ebi.ac.uk/biostudies/studies/S-BSST3199",
+  "retrieval_date": "2026-08-18",
+  "n_image_rows": 49,
+  "n_acquisition_groups": 2,
+  "n_plates": 12,
+  "n_top_level_files": 6,
+  "total_top_level_bytes": 169948017,
+  "sha256_coverage_images": 0.0,
+  "sha256_coverage_top_level": 1.0,
+  "duplicate_filenames_in_images": false,
+  "duplicate_relative_paths_in_images": false,
+  "duplicate_sha256_in_top_level": false
+}

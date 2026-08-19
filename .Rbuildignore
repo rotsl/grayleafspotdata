@@ -1,0 +1,4 @@
+^data-raw$
+^validation$
+^VALIDATION\.md$
+^.*\.zip$
