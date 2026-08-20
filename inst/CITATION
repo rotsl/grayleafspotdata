@@ -36,7 +36,6 @@ bibentry(
                     comment = c(ORCID = "0009-0005-9225-1775")),
   year      = "2026",
   note      = "Harvard Dataverse. Software archive, version 3.0.0.",
-  url       = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SR2HBR",
   doi       = "10.7910/DVN/SR2HBR",
   publisher = "Harvard Dataverse"
 )
@@ -52,7 +51,6 @@ bibentry(
                     comment = c(ORCID = "0009-0005-9225-1775")),
   year      = "2026",
   note      = "Harvard Dataverse. U-Net validation dataset for metrics-petri.",
-  url       = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7BJLIQ",
   doi       = "10.7910/DVN/7BJLIQ",
   publisher = "Harvard Dataverse"
 )

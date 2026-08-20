@@ -56,7 +56,9 @@ plates P002 through P012, four per plate. Total: 49 source images.
   last manifest generation run (row counts, coverage, duplicates).
 - `inst/CITATION`: an R CITATION file distinguishing four
   separately-citable resources.
-- `CITATION.cff`: a CFF 1.2.0 citation file at the repository root.
+- `CITATION.cff`: a CFF 1.2.0 citation file for repository hosting
+  services. The CRAN source package excludes this file because R uses
+  `inst/CITATION` for package citations.
 - `data-raw/build_manifest.R`, `data-raw/fetch_related_metadata.R`,
   `data-raw/validate_biostudies.R`: developer scripts for
   regenerating the `.rda` files and the JSON sidecars from
@@ -199,8 +201,9 @@ relies on the archived software or the U-Net validation dataset,
 cite the corresponding Harvard Dataverse DOI as well. Do not
 merge these into a single false citation.
 
-Citation details are in `inst/CITATION` (R `citEntry` format) and
-in `CITATION.cff` (CFF 1.2.0) at the repository root.
+Citation details are in `inst/CITATION` (R `citEntry` format). The
+repository root also contains `CITATION.cff` (CFF 1.2.0) for repository
+hosting services, but that file is not part of the CRAN source package.
 
 ```r
 library(grayleafspotdata)

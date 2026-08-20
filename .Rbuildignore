@@ -2,4 +2,5 @@
 ^validation$
 ^VALIDATION\.md$
 ^cran-comments\.md$
+^CITATION\.cff$
 ^.*\.zip$
